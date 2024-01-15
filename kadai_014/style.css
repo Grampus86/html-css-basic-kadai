@@ -22,8 +22,8 @@ body {
     font-family: "Josefin Sans", sans-serif;
     /*文字サイズ：ルート要素のフォントサイズの2倍*/
     font-size: 2rem;
-    /*文字間隔：ルート要素のフォントサイズの1.2倍*/
-    letter-spacing: 1.2rem;
+    /*文字間隔：親要素のフォントサイズの1.2倍*/
+    letter-spacing: 1.2em;
     /* 文字の影の設定 */
     text-shadow: 1px 1px 2px gray;
     /* 下線の設定 */
