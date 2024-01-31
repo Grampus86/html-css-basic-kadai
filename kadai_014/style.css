@@ -1,0 +1,41 @@
+html {
+    /* ルート要素のフォントサイズ */
+    font-size: 20px;
+}
+
+body {
+    /*googleフォント Josefin Sans*/
+    font-family: "Arial", "Meiryo", sans-serif;
+    /*中央寄せ*/
+    text-align: center
+}
+
+
+/*id属性basicのdivタグ直下のp要素(子要素)を太字にする*/
+#basic>p {
+    font-weight: bold;
+}
+
+/* 題名「MYPROFILE」の設定 */
+#set-h1 {
+    /* googleフォント Josefin Sansを設定 */
+    font-family: "Josefin Sans", sans-serif;
+    /*文字サイズ：ルート要素のフォントサイズの2倍*/
+    font-size: 2rem;
+    /*文字間隔：親要素のフォントサイズの1.2倍*/
+    letter-spacing: 1.2em;
+    /* 文字の影の設定 */
+    text-shadow: 1px 1px 2px gray;
+    /* 下線の設定 */
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+/* ピンク色の設定。色はrgb(255, 192, 203) */
+.color-pink {
+    color: rgb(255, 192, 203);
+}
+
+/* スカイブルーの設定 */
+.color-skyblue {
+    color: skyblue;
+}
